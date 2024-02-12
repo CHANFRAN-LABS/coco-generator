@@ -6,7 +6,7 @@ The tool takes in your images and corresponding grayscale labels, and outputs a 
 
 *Note - you will need to categorise the objects in the image after the tool has generated the json, if you have more than one category of object in your dataset*
 
-![grayscale label](data/labels/patch_2020_08_12_7251_label.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![grayscale label](label-example.jpg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![coco json](coco-example.jpg)
 
 ## Requirements
