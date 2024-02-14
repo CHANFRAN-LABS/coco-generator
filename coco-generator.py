@@ -7,8 +7,8 @@ parser = argparse.ArgumentParser(description="Generate COCO json dataset from gr
 parser.add_argument("-i", "--images", default="", type=str, metavar="PATH", help="path to images folder")
 parser.add_argument("-a", "--annotations", default="", type=str, metavar="PATH", help="path to annotations json file")
 parser.add_argument("-o", "--output", default="coco-dataset", type=str, metavar="PATH", help="output coco json filename | defaults to coco-dataset")
-parser.add_argument("-c", "--category_id", default=1, type=int, metavar="PATH", help="default category id for objects in your dataset. If you have more than one category, you need to enter the rest manually in the output json | defaults to 1")
-parser.add_argument("-l", "--license_id", default=4, type=int, metavar="PATH", help="default license id for your images. If you have more than one license, you need to enter the rest manually in the output json  | defaults to 4")
+parser.add_argument("-c", "--category_id", default=1, type=int, help="default category id for objects in your dataset. If you have more than one category, you need to enter the rest manually in the output json | defaults to 1")
+parser.add_argument("-l", "--license_id", default=4, type=int, help="default license id for your images. If you have more than one license, you need to enter the rest manually in the output json  | defaults to 4")
 
 class CocoGenerator:
 	def __init__(self, arguments):
